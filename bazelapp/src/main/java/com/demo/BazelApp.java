@@ -9,6 +9,6 @@ public class BazelApp {
 
         System.out.println(greetings.greet("Bazel"));
 
-        System.out.println(StringUtils.lowerCase("Greetings from Joev."));
+        System.out.println(StringUtils.lowerCase("Greetings from Varsha."));
     }
 }
