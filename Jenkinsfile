@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('verify bazel is installed') {
       steps {
-        bat 'bazel version'
+        sh 'bazel version'
       }
     }
     stage('Build the project') {
       steps {
-        bat 'bazel build //...'
+        sh 'bazel build //...'
       }
     }
   }
